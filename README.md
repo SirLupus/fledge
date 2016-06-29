@@ -1,6 +1,6 @@
 # Fledge
 
-Clean, responsive, minimalist theme for phpbb
+Clean, responsive, minimalist theme available for phpBB.
 
 Based off [TaniaRascia.com](https://www.taniarascia.com), and used on [DevDiscuss.com](http://www.devdiscuss.com).
 
