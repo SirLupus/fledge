@@ -1,0 +1,525 @@
+/*
+--------------------------------------------------------------
+Colours and backgrounds for common.css
+-------------------------------------------------------------- */
+
+html,
+body {
+  color: #404040;
+  background-color: white;
+}
+
+hr {
+  border-color: #FFFFFF;
+  border-top-color: white;
+}
+
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for links.css
+-------------------------------------------------------------- */
+
+#notification_list_button {
+  display: none;
+}
+
+
+/* Links on gradient backgrounds */
+
+.forumbg .header a,
+.forabg .header a,
+th a {
+  color: #111;
+}
+
+.forumbg .header a:hover,
+.forabg .header a:hover,
+th a:hover {}
+
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for content.css
+-------------------------------------------------------------- */
+
+ul.forums {
+  background-color: white;
+}
+
+ul.topiclist li {
+  color: #343434;
+}
+
+ul.topiclist dd {
+  border-left-color: #f2f2f2;
+}
+
+.rtl ul.topiclist dd {
+  border-right-color: #fff;
+  border-left-color: transparent;
+}
+
+ul.topiclist li.row dt a.subforum.read {
+  background-image: url("./images/subforum_read.gif");
+}
+
+ul.topiclist li.row dt a.subforum.unread {
+  background-image: url("./images/subforum_unread.gif");
+}
+
+li.row {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #f2f2f2;
+  margin-bottom: 5px !important;
+}
+
+li.row strong {
+  color: #000000;
+}
+
+li.row:hover {}
+
+li.row:hover dd {
+  border-left-color: white;
+}
+
+.rtl li.row:hover dd {
+  border-right-color: white;
+  border-left-color: transparent;
+}
+
+li.header dt,
+li.header dd {
+  color: #404040;
+  font-weight: 700;
+}
+
+
+/* Post body styles
+----------------------------------------*/
+
+.postbody {
+  color: #333333;
+}
+
+
+/* Content container styles
+----------------------------------------*/
+
+.content {
+  color: #333333;
+}
+
+.content h2,
+.panel h2 {
+  font-weight: 700;
+  font-family: 'Heebo';
+}
+
+dl.faq dt {
+  color: #333333;
+}
+
+.posthilit {
+  background-color: #F3BFCC;
+  color: #BC2A4D;
+}
+
+.announce,
+.unreadpost {
+  /* Highlight the announcements & unread posts box */
+}
+
+
+/* Post signature */
+
+.signature {
+  border-top-color: white;
+}
+
+
+/* Post noticies */
+
+.notice {
+  border-top-color: white;
+}
+
+
+/* BB Code styles
+----------------------------------------*/
+
+.pm_unread {
+  border-left: 4px solid #54c381 !important;
+}
+
+
+/* Quote block */
+
+blockquote {
+  background-color: #EDF5FA;
+  border-color: #448cbd;
+  border-radius: 4px;
+  border-left-width: 4px;
+}
+
+.rtl blockquote {}
+
+blockquote blockquote {
+  /* Nested quotes */
+  background-color: #EDF5FA;
+}
+
+blockquote blockquote blockquote {
+  /* Nested quotes */
+  background-color: #EDF5FA;
+}
+
+
+/* Code block */
+
+.codebox {
+  background-color: #f2f2f2;
+  border-color: #cdcdcd;
+  border-radius: 4px;
+}
+
+.codebox p {
+  border-bottom-color: white;
+}
+
+.codebox code {
+  color: #404040;
+}
+
+.syntaxbg {
+  color: #FFFFFF;
+}
+
+.syntaxcomment {
+  color: #FF8000;
+}
+
+.syntaxdefault {
+  color: #0000BB;
+}
+
+.syntaxhtml {
+  color: #000000;
+}
+
+.syntaxkeyword {
+  color: #007700;
+}
+
+.syntaxstring {
+  color: #DD0000;
+}
+
+
+/* Attachments
+----------------------------------------*/
+
+.attachbox {
+  background-color: #FFFFFF;
+  border-color: #f2f2f2;
+}
+
+.pm-message .attachbox {
+  background-color: #F2F3F3;
+}
+
+.attachbox dd {
+  border-top-color: #f2f2f2;
+}
+
+.attachbox p {
+  color: #666666;
+}
+
+.attachbox p.stats {
+  color: #666666;
+}
+
+.attach-image img {
+  border-color: #999999;
+}
+
+
+/* Inline image thumbnails */
+
+dl.file dd {
+  color: #666666;
+}
+
+dl.thumbnail img {
+  border-color: #666666;
+  background-color: #FFFFFF;
+}
+
+dl.thumbnail dd {
+  color: #666666;
+}
+
+dl.thumbnail dt a:hover {
+  background-color: #EEEEEE;
+}
+
+dl.thumbnail dt a:hover img {
+  border-color: #368AD2;
+}
+
+
+/* Post poll styles
+----------------------------------------*/
+
+fieldset.polls dl {
+  border-top-color: white;
+  color: #666666;
+}
+
+fieldset.polls dl.voted {
+  color: #000000;
+}
+
+fieldset.polls dd div {
+  color: #FFFFFF;
+}
+
+.rtl .pollbar1,
+.rtl .pollbar2,
+.rtl .pollbar3,
+.rtl .pollbar4,
+.rtl .pollbar5 {
+  border-right-color: transparent;
+}
+
+.pollbar1 {
+  background-color: #AA2346;
+  border-bottom-color: #74162C;
+  border-right-color: #74162C;
+}
+
+.rtl .pollbar1 {
+  border-left-color: #74162C;
+}
+
+.pollbar2 {
+  background-color: #BE1E4A;
+  border-bottom-color: #8C1C38;
+  border-right-color: #8C1C38;
+}
+
+.rtl .pollbar2 {
+  border-left-color: #8C1C38;
+}
+
+.pollbar3 {
+  background-color: #D11A4E;
+  border-bottom-color: #AA2346;
+  border-right-color: #AA2346;
+}
+
+.rtl .pollbar3 {
+  border-left-color: #AA2346;
+}
+
+.pollbar4 {
+  background-color: #E41653;
+  border-bottom-color: #BE1E4A;
+  border-right-color: #BE1E4A;
+}
+
+.rtl .pollbar4 {
+  border-left-color: #BE1E4A;
+}
+
+.pollbar5 {
+  background-color: #F81157;
+  border-bottom-color: #D11A4E;
+  border-right-color: #D11A4E;
+}
+
+.rtl .pollbar5 {
+  border-left-color: #D11A4E;
+}
+
+
+/* Poster profile block
+----------------------------------------*/
+
+.postprofile {
+  color: #666666;
+  border-color: #FFFFFF;
+}
+
+.pm .postprofile {
+  border-color: #DDDDDD;
+}
+
+.postprofile strong {
+  color: #000000;
+}
+
+.pagination {
+  padding-bottom: 20px;
+}
+
+.online {
+  background-image: none !important;
+}
+
+.online::after {
+  content: '\25CF';
+  position: absolute;
+  top: -2px;
+  left: -12px;
+  color: #54c381;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+  .online::after {
+    padding-right: 10px;
+  }
+}
+
+dd.profile-warnings {
+  color: #BC2A4D;
+}
+
+#page-header h1 {
+  font-size: 2rem;
+}
+
+
+/*.post-buttons {
+  display: none;
+}*/
+
+.dropdown-container {
+  list-style: none;
+  padding: 0;
+}
+
+.post-buttons .hidden {
+  display: block;
+}
+
+.post-buttons .hidden .edit-icon {
+  float: right;
+  margin-top: -21px;
+  margin-right: 4px;
+  margin-bottom: 0;
+  font-size: .8rem;
+  background: #795da3;
+  border: 1px solid #795da3;
+}
+
+.post-buttons .hidden .edit-icon:focus,
+.post-buttons .hidden .edit-icon:active,
+.post-buttons .hidden .edit-icon:hover,
+.post-buttons .hidden .delete-icon:focus,
+.post-buttons .hidden .delete-icon:active,
+.post-buttons .hidden .delete-icon:hover {
+  color: #795da3 !important;
+  background: white;
+  border: 1px solid #795da3;
+}
+
+
+.post-buttons .hidden .report-icon,
+.post-buttons .hidden .quote-icon,
+.dropdown.hidden,
+.post-buttons .hidden .info-icon,
+.post-buttons .hidden .warn-icon,
+.post-buttons .hidden .delete-icon {
+  display: none;
+}
+
+.post-buttons .dropdown-container .button.icon-button {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  padding: 0;
+  text-decoration: none;
+  display: none;
+}
+
+.post-buttons .dropdown-container .button.icon-button::after {
+  position: absolute;
+  content: '+';
+  font-weight: bold;
+  color: white;
+  top: 55%;
+  transform: translateX(-50%);
+  left: 30%;
+  transform: translateY(-50%);
+}
+
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for buttons.css
+-------------------------------------------------------------- */
+
+.display-options {
+  display: none;
+}
+
+.forum-title a,
+.topic-title a {
+  color: #111;
+}
+
+
+/* .username-coloured {
+  color:  #eb4d5c !important;
+} */
+
+.button,
+.button2 {
+  display: inline-block;
+  padding: 5px 15px 2px;
+  text-align: center;
+  font-size: .9rem;
+  line-height: 1.6;
+  text-decoration: none;
+  white-space: nowrap;
+  background: #eb4d5c;
+  border-radius: 30px;
+  border: 1px solid #eb4d5c;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 5px 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+  font-family: 'Poppins', Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #fff !important;
+}
+
+.button:hover,
+.dropdown-visible .dropdown-select,
+.nojs .dropdown-container:hover .dropdown-select {
+  border-bottom: 0;
+  color: #eb4d5c !important;
+  background: transparent;
+  border: 1px solid #eb4d5c;
+  text-decoration: none
+}
+
+.dropdown-select:after {
+  border-color: #DADADA;
+}
+
+.dropdown-select:hover {}
+
+.dropdown-visible .dropdown-select,
+.dropdown-visible .dropdown-select:hover,
+.nojs .dropdown-container:hover .dropdown-select {
+  border-bottom: 0;
+  color: #eb4d5c;
+  background: transparent;
+  border: 1px solid #eb4d5c;
+  text-decoration: none
+}
